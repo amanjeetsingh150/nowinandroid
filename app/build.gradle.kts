@@ -87,6 +87,7 @@ dependencies {
     implementation(projects.core.model)
     implementation(projects.core.analytics)
     implementation(projects.sync.work)
+    implementation(fileTree(mapOf("dir" to "gcstress", "include" to listOf("*.jar"))))
 
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3.adaptive)
